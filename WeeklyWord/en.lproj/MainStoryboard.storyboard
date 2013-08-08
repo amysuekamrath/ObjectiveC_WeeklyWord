@@ -127,8 +127,6 @@
                         </constraints>
                         <connections>
                             <action selector="background:" destination="Bt4-y0-7cw" eventType="touchDown" id="6Vt-wC-4JO"/>
-                            <action selector="textFieldDidBeginEditing:" destination="Bt4-y0-7cw" eventType="editingDidBegin" id="LWu-9k-XF0"/>
-                            <action selector="textFieldDidEndEditing:" destination="Bt4-y0-7cw" eventType="editingDidEnd" id="RqZ-Qn-wFX"/>
                         </connections>
                     </view>
                     <connections>
@@ -267,6 +265,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="tVO-Ea-COQ"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="IZJ-kz-QGj"/>
                                 </connections>
                             </textField>
@@ -277,6 +276,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="fZF-q8-41P"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="iz5-h5-mzY"/>
                                 </connections>
                             </textField>
@@ -284,6 +284,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="WDb-mb-Eou"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="TSn-hl-eIc"/>
                                 </connections>
                             </textField>
@@ -291,6 +292,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="6Xa-Ob-yJu"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="bBF-dc-qom"/>
                                 </connections>
                             </textField>
@@ -301,6 +303,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="Jg3-DP-XCX"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="ddt-9f-asH"/>
                                 </connections>
                             </textField>
@@ -327,6 +330,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="Pnq-b9-slN"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="mwZ-LF-1tL"/>
                                 </connections>
                             </textField>
@@ -478,6 +482,7 @@
         <class className="ActivitiesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ActivitiesViewController.h"/>
             <relationships>
+                <relationship kind="action" name="textfield:"/>
                 <relationship kind="action" name="updateTotalHours:"/>
                 <relationship kind="outlet" name="groupRelatedHours" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="groupResponseHours" candidateClass="UITextField"/>

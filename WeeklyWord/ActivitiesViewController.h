@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalHours;
 
 - (IBAction)updateTotalHours:(id)sender;
+- (IBAction)textfield:(id)sender;
 
 
 @end

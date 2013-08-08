@@ -25,4 +25,8 @@
     _totalHours.text = [NSString stringWithFormat:@"%0.0f", (float)totalHours];
     
 }
+
+- (IBAction)textfield:(id)sender {
+    [sender resignFirstResponder];
+}
 @end
