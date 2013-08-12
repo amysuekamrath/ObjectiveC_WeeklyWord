@@ -11,6 +11,7 @@
 
 @interface ActivitiesViewController : UIViewController
 
+
 @property (weak, nonatomic) IBOutlet WeeklyWord *wword;
 @property (weak, nonatomic) IBOutlet UITextField *planningHours;
 @property (weak, nonatomic) IBOutlet UITextField *languageHours;
@@ -19,9 +20,11 @@
 @property (weak, nonatomic) IBOutlet UITextField *groupResponseHours;
 @property (weak, nonatomic) IBOutlet UITextField *otherResponseHours;
 @property (weak, nonatomic) IBOutlet UILabel *totalHours;
+@property (weak, nonatomic) IBOutlet UITextField *coolStudyHours;
 
 - (IBAction)updateTotalHours:(id)sender;
 - (IBAction)textfield:(id)sender;
+//- (IBAction)background:(id)sender;
 
 
 @end

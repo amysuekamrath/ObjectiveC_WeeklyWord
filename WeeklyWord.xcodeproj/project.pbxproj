@@ -11,7 +11,6 @@
 		173C208317A170CA00AD8DC1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173C208217A170CA00AD8DC1 /* SystemConfiguration.framework */; };
 		173C208517A170D500AD8DC1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173C208417A170D500AD8DC1 /* MobileCoreServices.framework */; };
 		173C208717A170F000AD8DC1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 173C208617A170F000AD8DC1 /* libz.dylib */; };
-		174D84BA17B179C3003A87B5 /* iPadStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174D84B917B179C2003A87B5 /* iPadStoryBoard.storyboard */; };
 		174D84C317B183AA003A87B5 /* MinDoingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174D84C117B183AA003A87B5 /* MinDoingViewController.m */; };
 		174D84C817B1927C003A87B5 /* ActivitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174D84C617B1927B003A87B5 /* ActivitiesViewController.m */; };
 		175CBCEF1794852300867EF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175CBCEE1794852300867EF3 /* UIKit.framework */; };
@@ -34,7 +33,6 @@
 		173C208217A170CA00AD8DC1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		173C208417A170D500AD8DC1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		173C208617A170F000AD8DC1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		174D84B917B179C2003A87B5 /* iPadStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPadStoryBoard.storyboard; path = ../iPadStoryBoard.storyboard; sourceTree = "<group>"; };
 		174D84C017B183AA003A87B5 /* MinDoingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinDoingViewController.h; sourceTree = "<group>"; };
 		174D84C117B183AA003A87B5 /* MinDoingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinDoingViewController.m; sourceTree = "<group>"; };
 		174D84C517B1927B003A87B5 /* ActivitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitiesViewController.h; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 		175CBCF41794852300867EF3 /* WeeklyWord */ = {
 			isa = PBXGroup;
 			children = (
-				174D84B917B179C2003A87B5 /* iPadStoryBoard.storyboard */,
 				175CBD061794852300867EF3 /* MainStoryboard.storyboard */,
 				175CBCFD1794852300867EF3 /* WeeklyWordAppDelegate.h */,
 				175CBCFE1794852300867EF3 /* WeeklyWordAppDelegate.m */,
@@ -211,7 +208,6 @@
 				175CBD031794852300867EF3 /* Default@2x.png in Resources */,
 				175CBD051794852300867EF3 /* Default-568h@2x.png in Resources */,
 				175CBD081794852300867EF3 /* MainStoryboard.storyboard in Resources */,
-				174D84BA17B179C3003A87B5 /* iPadStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

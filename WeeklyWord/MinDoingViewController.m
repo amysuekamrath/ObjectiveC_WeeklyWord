@@ -12,21 +12,12 @@
 #import "WeeklyWord.h"
 
 @interface MinDoingViewController ()
-{
-    WeeklyWord *ww;
-}
+
 @end
 
 @implementation MinDoingViewController
 @synthesize wword;
 
-- (WeeklyWord *)ww
-{
-    if (!ww){
-        ww = [[WeeklyWord alloc] init];
-    }
-    return ww;
-}
 
 - (void)viewDidLoad
 {
@@ -43,12 +34,12 @@
     // Perform if the segue is by name @"First to second".
     if ([[segue identifier] isEqualToString:@"Second To Third"])
     {
-        [[self ww] setMinDoingText:[_minDoingText text]];
-        [[self ww] setPrayingForText:[_prayingForText text]];
+        [[self wword] setMinDoingText:[_minDoingText text]];
+        [[self wword] setPrayingForText:[_prayingForText text]];
         // Get reference to the destination view controller
         ActivitiesViewController *targetVC = [segue destinationViewController];
         // Pass any objects to the view controller here, like...
-        targetVC.wword = self.ww;
+        targetVC.wword = self.wword;
     }
 }
 

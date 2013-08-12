@@ -112,17 +112,17 @@
                             <constraint firstItem="6Yb-1u-dxJ" firstAttribute="leading" secondItem="JtQ-d5-cTi" secondAttribute="leading" type="default" id="Ubr-D3-jwe"/>
                             <constraint firstItem="47O-8p-iCn" firstAttribute="top" secondItem="gay-kT-r4y" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Wol-mc-BOX"/>
                             <constraint firstItem="gay-kT-r4y" firstAttribute="top" secondItem="Fqz-4J-FsG" secondAttribute="top" constant="20" symbolic="YES" type="default" id="WtD-8Z-DWq"/>
+                            <constraint firstItem="GL5-Tx-kVK" firstAttribute="top" secondItem="Fqz-4J-FsG" secondAttribute="top" constant="164" id="a3V-OU-nZ8"/>
                             <constraint firstAttribute="bottom" secondItem="2ZG-WX-mJ8" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="aC1-lQ-fHb"/>
+                            <constraint firstItem="gay-kT-r4y" firstAttribute="leading" secondItem="Fqz-4J-FsG" secondAttribute="leading" constant="119" id="dFT-bA-r2P"/>
                             <constraint firstItem="Vtz-1F-Gt5" firstAttribute="leading" secondItem="Fqz-4J-FsG" secondAttribute="leading" constant="10" id="fqw-De-Axq"/>
-                            <constraint firstItem="GL5-Tx-kVK" firstAttribute="top" secondItem="do4-gq-JIm" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="gum-0t-R8N"/>
                             <constraint firstItem="IFz-xl-1m9" firstAttribute="top" secondItem="Fqz-4J-FsG" secondAttribute="top" constant="93" id="kVO-sg-23d"/>
-                            <constraint firstItem="GL5-Tx-kVK" firstAttribute="trailing" secondItem="IFz-xl-1m9" secondAttribute="trailing" type="default" id="mwe-h9-QaM"/>
                             <constraint firstItem="47O-8p-iCn" firstAttribute="trailing" secondItem="gay-kT-r4y" secondAttribute="trailing" type="default" id="oXC-c3-t5h"/>
                             <constraint firstItem="Vtz-1F-Gt5" firstAttribute="bottom" secondItem="gay-kT-r4y" secondAttribute="bottom" type="default" id="p7M-V9-eOR"/>
                             <constraint firstItem="do4-gq-JIm" firstAttribute="trailing" secondItem="Fqz-4J-FsG" secondAttribute="trailing" type="default" id="pZZ-5P-XJ2"/>
                             <constraint firstItem="tn6-zr-6WA" firstAttribute="top" secondItem="Fqz-4J-FsG" secondAttribute="top" constant="130" id="pq7-s1-3pZ"/>
-                            <constraint firstItem="GL5-Tx-kVK" firstAttribute="leading" secondItem="Fqz-4J-FsG" secondAttribute="leading" constant="32" id="r4v-CT-3Cs"/>
                             <constraint firstItem="2ZG-WX-mJ8" firstAttribute="leading" secondItem="Fqz-4J-FsG" secondAttribute="leading" constant="97" id="rJP-j5-hJL"/>
+                            <constraint firstItem="GL5-Tx-kVK" firstAttribute="leading" secondItem="Fqz-4J-FsG" secondAttribute="leading" constant="28" id="rLj-o6-FOF"/>
                             <constraint firstItem="IFz-xl-1m9" firstAttribute="trailing" secondItem="47O-8p-iCn" secondAttribute="trailing" type="default" id="ruJ-5c-vH2"/>
                         </constraints>
                         <connections>
@@ -265,7 +265,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="tVO-Ea-COQ"/>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="K0K-RV-Yri"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="IZJ-kz-QGj"/>
                                 </connections>
                             </textField>
@@ -276,7 +276,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="fZF-q8-41P"/>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="ZVR-ar-Is6"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="iz5-h5-mzY"/>
                                 </connections>
                             </textField>
@@ -284,7 +284,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="WDb-mb-Eou"/>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="lXJ-p8-7HN"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="TSn-hl-eIc"/>
                                 </connections>
                             </textField>
@@ -292,7 +292,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="6Xa-Ob-yJu"/>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="muY-MD-aMl"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="bBF-dc-qom"/>
                                 </connections>
                             </textField>
@@ -303,7 +303,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="Jg3-DP-XCX"/>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="QRv-YS-eAF"/>
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="ddt-9f-asH"/>
                                 </connections>
                             </textField>
@@ -334,35 +334,54 @@
                                     <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="mwZ-LF-1tL"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="QT and cool study:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOW-FU-7fE">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O7O-vQ-icx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="LDR-Pt-r5b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textfield:" destination="RsH-IN-ySw" eventType="editingDidEndOnExit" id="uX3-SR-RFK"/>
+                                    <action selector="updateTotalHours:" destination="RsH-IN-ySw" eventType="editingDidEnd" id="4ek-29-CyN"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="woW-m2-L9Q" secondAttribute="bottom" constant="104" id="2A1-X5-T3a"/>
                             <constraint firstItem="4hX-F9-EOe" firstAttribute="centerX" secondItem="fdG-D5-1Eu" secondAttribute="centerX" type="default" id="4ao-fg-rQe"/>
+                            <constraint firstItem="O7O-vQ-icx" firstAttribute="top" secondItem="fOW-FU-7fE" secondAttribute="top" type="default" id="7cX-cH-hHE"/>
                             <constraint firstItem="qry-MC-VrE" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="162" id="7o2-zn-VIb"/>
                             <constraint firstItem="vJG-Ml-r2e" firstAttribute="leading" secondItem="eLo-br-6nQ" secondAttribute="leading" type="default" id="8x6-Nm-KPp"/>
                             <constraint firstItem="4hX-F9-EOe" firstAttribute="leading" secondItem="vJG-Ml-r2e" secondAttribute="leading" type="default" id="ATA-Xf-tWA"/>
-                            <constraint firstItem="1r7-1a-6JW" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="193" id="BOH-OX-wkb"/>
                             <constraint firstItem="4e3-Kd-fe5" firstAttribute="leading" secondItem="LDL-Sq-LNv" secondAttribute="leading" type="default" id="CWH-kN-SlN"/>
                             <constraint firstItem="EUK-qj-YdR" firstAttribute="top" secondItem="4e3-Kd-fe5" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="DnC-im-stA"/>
+                            <constraint firstItem="fOW-FU-7fE" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="193" id="ELS-N4-Ocg"/>
                             <constraint firstItem="f0P-dI-5Ux" firstAttribute="baseline" secondItem="LDL-Sq-LNv" secondAttribute="baseline" type="default" id="HNp-g3-dpf"/>
                             <constraint firstItem="EUK-qj-YdR" firstAttribute="leading" secondItem="jgE-a2-c4A" secondAttribute="leading" constant="18" id="KQe-3N-U0k"/>
                             <constraint firstItem="woW-m2-L9Q" firstAttribute="centerX" secondItem="jgE-a2-c4A" secondAttribute="centerX" type="default" id="OSr-gi-hwi"/>
                             <constraint firstItem="7WP-32-psv" firstAttribute="trailing" secondItem="Qpu-0F-k2v" secondAttribute="trailing" type="default" id="PNX-Ca-IN6"/>
                             <constraint firstItem="eLo-br-6nQ" firstAttribute="leading" secondItem="7WP-32-psv" secondAttribute="leading" type="default" id="PQh-bm-DAT"/>
+                            <constraint firstAttribute="trailing" secondItem="O7O-vQ-icx" secondAttribute="trailing" constant="7" id="QlZ-H1-VnL"/>
                             <constraint firstItem="4e3-Kd-fe5" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="42" id="Sf8-7X-e28"/>
                             <constraint firstItem="UhJ-UK-5VF" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="98" id="VQ4-NI-kej"/>
-                            <constraint firstItem="nqA-Kl-RNW" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="195" id="YBK-Pv-eAT"/>
                             <constraint firstItem="7WP-32-psv" firstAttribute="leading" secondItem="Qpu-0F-k2v" secondAttribute="leading" type="default" id="Yfn-qz-lAn"/>
                             <constraint firstItem="eLo-br-6nQ" firstAttribute="trailing" secondItem="7WP-32-psv" secondAttribute="trailing" type="default" id="ZWA-3G-fFJ"/>
                             <constraint firstItem="UhJ-UK-5VF" firstAttribute="leading" secondItem="4e3-Kd-fe5" secondAttribute="leading" type="default" id="apK-x3-UqL"/>
+                            <constraint firstItem="1r7-1a-6JW" firstAttribute="top" secondItem="fOW-FU-7fE" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="aue-CK-ku8"/>
                             <constraint firstAttribute="trailing" secondItem="nqA-Kl-RNW" secondAttribute="trailing" constant="16" id="bDc-nE-G71"/>
                             <constraint firstItem="vJG-Ml-r2e" firstAttribute="baseline" secondItem="8VU-Go-8Iu" secondAttribute="baseline" type="default" id="cYw-qP-u2x"/>
                             <constraint firstItem="eLo-br-6nQ" firstAttribute="top" secondItem="UhJ-UK-5VF" secondAttribute="top" type="default" id="e1d-Ix-9oO"/>
                             <constraint firstItem="8VU-Go-8Iu" firstAttribute="top" secondItem="vJG-Ml-r2e" secondAttribute="top" type="default" id="erg-Oi-enr"/>
+                            <constraint firstItem="nqA-Kl-RNW" firstAttribute="top" secondItem="1r7-1a-6JW" secondAttribute="top" type="default" id="ez4-D5-x5q"/>
+                            <constraint firstItem="fOW-FU-7fE" firstAttribute="leading" secondItem="jgE-a2-c4A" secondAttribute="leading" constant="19" id="f6K-zz-TuZ"/>
                             <constraint firstItem="8VU-Go-8Iu" firstAttribute="leading" secondItem="UhJ-UK-5VF" secondAttribute="leading" type="default" id="fXg-e2-A7S"/>
                             <constraint firstItem="7WP-32-psv" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="67" id="fg5-LF-NOG"/>
-                            <constraint firstItem="1r7-1a-6JW" firstAttribute="leading" secondItem="jgE-a2-c4A" secondAttribute="leading" constant="19" id="hec-kb-BTs"/>
                             <constraint firstItem="Qpu-0F-k2v" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="35" id="kvH-vj-n3k"/>
                             <constraint firstItem="f0P-dI-5Ux" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="4" id="lKX-vF-mjB"/>
                             <constraint firstItem="4hX-F9-EOe" firstAttribute="trailing" secondItem="vJG-Ml-r2e" secondAttribute="trailing" type="default" id="lif-t0-Erf"/>
@@ -375,9 +394,11 @@
                             <constraint firstItem="vJG-Ml-r2e" firstAttribute="trailing" secondItem="eLo-br-6nQ" secondAttribute="trailing" type="default" id="uwe-Ee-9H7"/>
                             <constraint firstItem="fdG-D5-1Eu" firstAttribute="top" secondItem="jgE-a2-c4A" secondAttribute="top" constant="198" id="vd6-0I-MTn"/>
                             <constraint firstItem="LDL-Sq-LNv" firstAttribute="leading" secondItem="jgE-a2-c4A" secondAttribute="leading" constant="17" id="wWa-hr-Tws"/>
+                            <constraint firstItem="fOW-FU-7fE" firstAttribute="leading" secondItem="1r7-1a-6JW" secondAttribute="leading" type="default" id="zoP-DE-SDY"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="coolStudyHours" destination="O7O-vQ-icx" id="KGO-Xg-W3R"/>
                         <outlet property="groupRelatedHours" destination="eLo-br-6nQ" id="dGE-7k-e3X"/>
                         <outlet property="groupResponseHours" destination="vJG-Ml-r2e" id="8M9-yL-t4g"/>
                         <outlet property="languageHours" destination="Qpu-0F-k2v" id="fnI-ig-EJh"/>
@@ -484,6 +505,7 @@
             <relationships>
                 <relationship kind="action" name="textfield:"/>
                 <relationship kind="action" name="updateTotalHours:"/>
+                <relationship kind="outlet" name="coolStudyHours" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="groupRelatedHours" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="groupResponseHours" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="languageHours" candidateClass="UITextField"/>

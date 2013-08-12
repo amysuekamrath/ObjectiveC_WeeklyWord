@@ -45,6 +45,41 @@
     prayingForText = anPrayingForText;
 }
 
+-(void)setPlanningHours:(NSInteger)anPlanningHours
+{
+    planningHours = anPlanningHours;
+}
+
+-(void)setStudyingHours:(NSInteger)anStudyingHours
+{
+    studyingHours = anStudyingHours;
+}
+
+-(void)setLanguageHours:(NSInteger)anLanguageHours
+{
+    languageHours = anLanguageHours;
+}
+
+-(void)setGroupRelatedHours:(NSInteger)anGroupRelatedHours
+{
+    groupRelatedHours = anGroupRelatedHours;
+}
+
+-(void)setGroupResponseHours:(NSInteger)anGroupResponseHours
+{
+    groupResponseHours = anGroupResponseHours;
+}
+
+-(void)setOtherRequiredHours:(NSInteger)anOtherRequiredHours
+{
+    otherRequiredHours = anOtherRequiredHours;
+}
+
+-(void)setCoolStudyHours:(NSInteger)anCoolStudyHours
+{
+    coolStudyHours = anCoolStudyHours;
+}
+
 - (NSString *)getGuid
 {
     return guid;
@@ -78,6 +113,41 @@
 - (NSString *)getPrayingForText
 {
     return prayingForText;
+}
+
+- (NSInteger)getPlanningHours
+{
+    return planningHours;
+}
+
+- (NSInteger)getStudyingHours
+{
+    return studyingHours;
+}
+
+- (NSInteger)getLanguageHours
+{
+    return languageHours;
+}
+
+- (NSInteger)getGroupRelatedHours
+{
+    return groupRelatedHours;
+}
+
+- (NSInteger)getGroupResponseHours
+{
+    return groupResponseHours;
+}
+
+- (NSInteger)getOtherRequiredHours
+{
+    return otherRequiredHours;
+}
+
+- (NSInteger)getCoolStudyHours
+{
+    return coolStudyHours;
 }
 
 @end

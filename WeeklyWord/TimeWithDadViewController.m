@@ -44,7 +44,7 @@
 - (IBAction)submit:(id)sender {
     
     [[self wword] setTimeWithDad:[_timeWithDadText text]];
-    NSString *post = [NSString stringWithFormat:@"&relationship=%@&personally=%@&startdt=%@&enddt=%@&guid=%@",wword.getTimeWithDad, wword.getHowDoingText, wword.getStartDate, wword.getEndDate,wword.getGuid ];
+    NSString *post = [NSString stringWithFormat:@"&relationship=%@&personally=%@&startdt=%@&enddt=%@&guid=%@&min=%@&praying=%@&studying=%d&class=%d&planning=%d&groupRelated=%d&groupResponse=%d&otherRequired=%d&cool=%d",wword.getTimeWithDad, wword.getHowDoingText, wword.getStartDate, wword.getEndDate,wword.getGuid,wword.getMinDoingText,wword.getPrayingForText, wword.getStudyingHours, wword.getLanguageHours, wword.getPlanningHours, wword.getGroupRelatedHours, wword.getGroupResponseHours, wword.getOtherRequiredHours, wword.getCoolStudyHours ];
     
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion: YES];
     

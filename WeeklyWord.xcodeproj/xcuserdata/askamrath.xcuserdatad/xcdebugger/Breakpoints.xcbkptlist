@@ -56,30 +56,30 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "WeeklyWord/WeeklyWordViewController.m"
-         timestampString = "397596780.722903"
+         filePath = "WeeklyWord/ActivitiesViewController.m"
+         timestampString = "398014471.8378"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "52"
-         endingLineNumber = "52"
-         landmarkName = "-textField:"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
+         landmarkName = "-updateTotalHours:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "WeeklyWord/WeeklyWordViewController.m"
-         timestampString = "397596785.118948"
+         filePath = "WeeklyWord/ActivitiesViewController.m"
+         timestampString = "398016294.586836"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "57"
-         endingLineNumber = "57"
-         landmarkName = "-background:"
-         landmarkType = "5">
+         startingLineNumber = "56"
+         endingLineNumber = "56"
+         landmarkName = "@implementation ActivitiesViewController"
+         landmarkType = "3">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
