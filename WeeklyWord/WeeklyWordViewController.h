@@ -24,7 +24,5 @@
 - (IBAction)textField:(id)sender;
 - (IBAction)background:(id)sender;
 - (IBAction)validation:(id)sender;
-- (IBAction)textFieldDidBeginEditing:(UITextField *)textField;
-- (IBAction)textFieldDidEndEditing:(UITextField *)textField;
 
 @end

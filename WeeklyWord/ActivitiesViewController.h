@@ -24,7 +24,7 @@
 
 - (IBAction)updateTotalHours:(id)sender;
 - (IBAction)textfield:(id)sender;
-//- (IBAction)background:(id)sender;
+- (IBAction)background:(id)sender;
 
 
 @end

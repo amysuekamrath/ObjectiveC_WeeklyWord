@@ -52,7 +52,7 @@
     [sender resignFirstResponder];
 }
 
-/*- (IBAction)background:(id)sender {
+- (IBAction)background:(id)sender {
     [_planningHours resignFirstResponder];
     [_languageHours resignFirstResponder];
     [_studyingHours resignFirstResponder];
@@ -60,5 +60,5 @@
     [_groupResponseHours resignFirstResponder];
     [_otherResponseHours resignFirstResponder];
     [_coolStudyHours resignFirstResponder];
-}*/
+}
 @end

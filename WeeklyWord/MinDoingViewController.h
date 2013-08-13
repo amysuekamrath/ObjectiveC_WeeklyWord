@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "WeeklyWord.h"
 
-@interface MinDoingViewController : UIViewController
+@interface MinDoingViewController : UIViewController<UITextViewDelegate>
 @property (weak, nonatomic) IBOutlet WeeklyWord *wword;
 @property (weak, nonatomic) IBOutlet UITextView *minDoingText;
 @property (weak, nonatomic) IBOutlet UITextView *prayingForText;
+
+- (IBAction)background:(id)sender;
 
 @end
