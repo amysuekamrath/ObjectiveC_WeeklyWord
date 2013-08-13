@@ -80,6 +80,16 @@
     coolStudyHours = anCoolStudyHours;
 }
 
+-(void)setLastPLDate:(NSString *)anLastPLDate
+{
+    lastPLDate = anLastPLDate;
+}
+
+-(void)setNeedMoreContacts:(NSString *)anNeedMoreContacts
+{
+    needMoreContacts = anNeedMoreContacts;
+}
+
 - (NSString *)getGuid
 {
     return guid;
@@ -148,6 +158,16 @@
 - (NSInteger)getCoolStudyHours
 {
     return coolStudyHours;
+}
+
+- (NSString *)getLastPLDate
+{
+    return lastPLDate;
+}
+
+- (NSString *)getNeedMoreContacts
+{
+    return needMoreContacts;
 }
 
 @end

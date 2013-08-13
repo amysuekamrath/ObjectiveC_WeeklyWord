@@ -16,8 +16,10 @@
     NSString *timeWithDad;
     NSString *startDate;
     NSString *endDate;
+    NSString *lastPLDate;
     NSString *minDoingText;
     NSString *prayingForText;
+    NSString *needMoreContacts;
     NSInteger planningHours;
     NSInteger studyingHours;
     NSInteger languageHours;
@@ -41,6 +43,8 @@
 - (void)setGroupResponseHours:(NSInteger )anGroupResponseHours;
 - (void)setOtherRequiredHours:(NSInteger )anOtherRequiredHours;
 - (void)setCoolStudyHours:(NSInteger )anCoolStudyHours;
+- (void)setLastPLDate:(NSString *)anLastPLDate;
+- (void)setNeedMoreContacts:(NSString *)anNeedMoreContacts;
 - (NSString *)getGuid;
 - (NSString *)getHowDoingText;
 - (NSString *)getTimeWithDad;
@@ -55,5 +59,7 @@
 - (NSInteger )getGroupResponseHours;
 - (NSInteger )getOtherRequiredHours;
 - (NSInteger )getCoolStudyHours;
+- (NSString *)getLastPLDate;
+- (NSString *)getNeedMoreContacts;
 
 @end

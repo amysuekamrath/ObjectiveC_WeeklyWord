@@ -11,7 +11,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "MinDoingViewController.h"
 
-@interface WeeklyWordViewController : UIViewController
+@interface WeeklyWordViewController : UIViewController<UITextViewDelegate>
 {
     WeeklyWord *ww;
     MinDoingViewController *minDoingViewController;
@@ -20,6 +20,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *startDate;
 @property (weak, nonatomic) IBOutlet UITextField *endDate;
 @property (weak, nonatomic) IBOutlet UITextView *doingPersonalText;
+@property (weak, nonatomic) IBOutlet UITextField *lastPLDate;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *needMoreContacts;
 
 - (IBAction)textField:(id)sender;
 - (IBAction)background:(id)sender;
