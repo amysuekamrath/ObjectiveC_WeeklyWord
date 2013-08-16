@@ -7,8 +7,7 @@
 //
 
 #import "MinDoingViewController.h"
-#import "ActivitiesViewController.h"
-#import "TimeWithDadViewController.h"
+#import "ObjectivesViewController.h"
 #import "WeeklyWord.h"
 
 @interface MinDoingViewController ()
@@ -38,7 +37,7 @@
         [[self wword] setMinDoingText:[_minDoingText text]];
         [[self wword] setPrayingForText:[_prayingForText text]];
         // Get reference to the destination view controller
-        ActivitiesViewController *targetVC = [segue destinationViewController];
+        ObjectivesViewController *targetVC = [segue destinationViewController];
         // Pass any objects to the view controller here, like...
         targetVC.wword = self.wword;
     }
@@ -52,15 +51,15 @@
 
 -(void)textViewDidBeginEditing:(UITextView *)textView
 {
-    [self animateTextField:textView up:YES];
+    [self animateTextView:textView up:YES];
 }
 
 - (void)textViewDidEndEditing:(UITextView *)textView
 {
-    [self animateTextField:textView up:NO];
+    [self animateTextView:textView up:NO];
 }
 
--(void)animateTextField:(UITextView *)textView up:(BOOL)up
+-(void)animateTextView:(UITextView *)textView up:(BOOL)up
 {
     const int movementDistance = -130; // tweak as needed
     const float movementDuration = 0.3f; // tweak as needed

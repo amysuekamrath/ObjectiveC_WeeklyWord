@@ -19,7 +19,7 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Perform if the segue is by name @"First to second".
-    if ([[segue identifier] isEqualToString:@"Third To Fourth"])
+    if ([[segue identifier] isEqualToString:@"Fourth To Fifth"])
     {
         // Get reference to the destination view controller
         TimeWithDadViewController *targetVC = [segue destinationViewController];

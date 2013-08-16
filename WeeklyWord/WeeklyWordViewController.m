@@ -87,15 +87,15 @@
 
 -(void)textViewDidBeginEditing:(UITextView *)textView
 {
-    [self animateTextField:textView up:YES];
+    [self animateTextView:textView up:YES];
 }
 
 - (void)textViewDidEndEditing:(UITextView *)textView
 {
-    [self animateTextField:textView up:NO];
+    [self animateTextView:textView up:NO];
 }
 
--(void)animateTextField:(UITextView *)textView up:(BOOL)up
+-(void)animateTextView:(UITextView *)textView up:(BOOL)up
 {
     const int movementDistance = -130; // tweak as needed
     const float movementDuration = 0.3f; // tweak as needed

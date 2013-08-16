@@ -44,7 +44,7 @@
 - (IBAction)submit:(id)sender {
     
     [[self wword] setTimeWithDad:[_timeWithDadText text]];
-    NSString *post = [NSString stringWithFormat:@"&relationship=%@&personally=%@&startdt=%@&enddt=%@&guid=%@&min=%@&praying=%@&studying=%d&class=%d&planning=%d&groupRelated=%d&groupResponse=%d&otherRequired=%d&cool=%d&lastpldt=%@&contacts=%@",wword.getTimeWithDad, wword.getHowDoingText, wword.getStartDate, wword.getEndDate,wword.getGuid,wword.getMinDoingText,wword.getPrayingForText, wword.getStudyingHours, wword.getLanguageHours, wword.getPlanningHours, wword.getGroupRelatedHours, wword.getGroupResponseHours, wword.getOtherRequiredHours, wword.getCoolStudyHours, wword.getLastPLDate, wword.getNeedMoreContacts ];
+    NSString *post = [NSString stringWithFormat:@"&relationship=%@&personally=%@&startdt=%@&enddt=%@&guid=%@&min=%@&praying=%@&studying=%d&class=%d&planning=%d&groupRelated=%d&groupResponse=%d&otherRequired=%d&cool=%d&lastpldt=%@&contacts=%@&object1=%@&object2=%@&object3=%@&object4=%@",wword.getTimeWithDad, wword.getHowDoingText, wword.getStartDate, wword.getEndDate,wword.getGuid,wword.getMinDoingText,wword.getPrayingForText, wword.getStudyingHours, wword.getLanguageHours, wword.getPlanningHours, wword.getGroupRelatedHours, wword.getGroupResponseHours, wword.getOtherRequiredHours, wword.getCoolStudyHours, wword.getLastPLDate, wword.getNeedMoreContacts, wword.getObjective1, wword.getObjective2, wword.getObjective3, wword.getObjective4 ];
     
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion: YES];
     

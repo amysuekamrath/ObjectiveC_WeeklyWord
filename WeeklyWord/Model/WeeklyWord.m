@@ -90,6 +90,26 @@
     needMoreContacts = anNeedMoreContacts;
 }
 
+-(void)setObjective1:(NSString *)anObjective1
+{
+    objective1 = anObjective1;
+}
+
+-(void)setObjective2:(NSString *)anObjective2
+{
+    objective2 = anObjective2;
+}
+
+-(void)setObjective3:(NSString *)anObjective3
+{
+    objective3 = anObjective3;
+}
+
+-(void)setObjective4:(NSString *)anObjective4
+{
+    objective4 = anObjective4;
+}
+
 - (NSString *)getGuid
 {
     return guid;
@@ -170,4 +190,23 @@
     return needMoreContacts;
 }
 
+- (NSString *)getObjective1
+{
+    return objective1;
+}
+
+- (NSString *)getObjective2
+{
+    return objective2;
+}
+
+- (NSString *)getObjective3
+{
+    return objective3;
+}
+
+- (NSString *)getObjective4
+{
+    return objective4;
+}
 @end

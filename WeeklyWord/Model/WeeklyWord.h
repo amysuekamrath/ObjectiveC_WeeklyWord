@@ -27,6 +27,10 @@
     NSInteger groupResponseHours;
     NSInteger otherRequiredHours;
     NSInteger coolStudyHours;
+    NSString *objective1;
+    NSString *objective2;
+    NSString *objective3;
+    NSString *objective4;
 }
 
 - (void)setGuid:(NSString *)anGuid;
@@ -45,6 +49,10 @@
 - (void)setCoolStudyHours:(NSInteger )anCoolStudyHours;
 - (void)setLastPLDate:(NSString *)anLastPLDate;
 - (void)setNeedMoreContacts:(NSString *)anNeedMoreContacts;
+- (void)setObjective1:(NSString *)anObjective1;
+- (void)setObjective2:(NSString *)anObjective2;
+- (void)setObjective3:(NSString *)anObjective3;
+- (void)setObjective4:(NSString *)anObjective4;
 - (NSString *)getGuid;
 - (NSString *)getHowDoingText;
 - (NSString *)getTimeWithDad;
@@ -61,5 +69,9 @@
 - (NSInteger )getCoolStudyHours;
 - (NSString *)getLastPLDate;
 - (NSString *)getNeedMoreContacts;
+- (NSString *)getObjective1;
+- (NSString *)getObjective2;
+- (NSString *)getObjective3;
+- (NSString *)getObjective4;
 
 @end
