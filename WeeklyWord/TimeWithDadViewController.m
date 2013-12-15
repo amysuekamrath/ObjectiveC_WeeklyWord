@@ -55,14 +55,17 @@
     
     NSString *postLength = [NSString stringWithFormat:@"%d",[postData length]];
     
-    //This runs 
+    //This runs the php script that loads the data to the database.
     NSURL *url = [NSURL URLWithString:@"http://localhost:8080/phpScript/index.php"];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    
+    //These statements set the fields of the request
     [request setURL:url];
     [request setHTTPMethod:@"POST"];
     [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
     [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Current-Type"];
     [request setHTTPBody:postData];
+    
     NSURLConnection *theConnection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     
 }
