@@ -13,8 +13,11 @@
 
 @interface TimeWithDadViewController : UIViewController
 
+//Fields used in the implementation file
 @property (retain,nonatomic) IBOutlet WeeklyWord *wword;
 @property (weak, nonatomic) IBOutlet UITextView *timeWithDadText;
+
+//Methods used in the implementation file TimeWithDad View Controller
 - (IBAction)background:(id)sender;
 - (IBAction)submit:(id)sender;
 

@@ -174,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kV-2x-DGy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="-293"/>
+            <point key="canvasLocation" x="-36" y="-295"/>
         </scene>
         <!--Time With Dad View Controller-->
         <scene sceneID="3vt-77-u1S">
@@ -237,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1IJ-Xu-Bvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1208" y="-277"/>
+            <point key="canvasLocation" x="1558" y="-291"/>
         </scene>
         <!--Activities View Controller-->
         <scene sceneID="wD5-pr-4XS">
@@ -450,7 +450,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KUK-WX-ln4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807" y="-277"/>
+            <point key="canvasLocation" x="1147" y="-291"/>
         </scene>
         <!--Min Doing View Controller-->
         <scene sceneID="gxr-m2-brC">
@@ -545,7 +545,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJM-nv-hkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32" y="-297"/>
+            <point key="canvasLocation" x="344" y="-297"/>
         </scene>
         <!--Objectives View Controller-->
         <scene sceneID="1XD-wt-h5a">
@@ -670,7 +670,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWR-St-pBz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="437" y="-281"/>
+            <point key="canvasLocation" x="745" y="-295"/>
         </scene>
     </scenes>
     <classes>

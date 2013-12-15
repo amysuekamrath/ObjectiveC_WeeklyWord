@@ -2,6 +2,11 @@
 //  TimeWithDadViewController.m
 //  WeeklyWord
 //
+//  This controller handles the last screen of the application
+//  It holds the fields for the UI Text View Time with Dad.  It saves the
+//  field to the Weekly Word model and sends the data to the php script
+//  so it can be saved to the database.
+//
 //  Created by Amy Kamrath on 7/19/13.
 //  Copyright (c) 2013 Amy Kamrath. All rights reserved.
 //
@@ -18,9 +23,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
+
     return self;
 }
 
@@ -34,13 +37,15 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+//Listens for the background to be clicked
+//so the keyboard disappears.
 - (IBAction)background:(id)sender {
     [_timeWithDadText resignFirstResponder];
 }
 
+//This function submits the data from the Weekly Word screens to the database
 - (IBAction)submit:(id)sender {
     
     [[self wword] setTimeWithDad:[_timeWithDadText text]];
@@ -50,6 +55,7 @@
     
     NSString *postLength = [NSString stringWithFormat:@"%d",[postData length]];
     
+    //This runs 
     NSURL *url = [NSURL URLWithString:@"http://localhost:8080/phpScript/index.php"];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
     [request setURL:url];
