@@ -28,6 +28,7 @@
     _minDoingText.layer.borderWidth = 2.0f;
     _minDoingText.layer.borderColor = [[UIColor grayColor] CGColor];
     _minDoingText.layer.cornerRadius = 10.0f;
+    
     _prayingForText.layer.borderWidth = 2.0f;
     _prayingForText.layer.borderColor = [[UIColor grayColor] CGColor];
     _prayingForText.layer.cornerRadius = 10.0f;

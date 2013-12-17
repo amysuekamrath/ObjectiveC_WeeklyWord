@@ -42,34 +42,27 @@
     }
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    return self;
-}
-
 //Defines the outline of the 4 objective fields.
 - (void)viewDidLoad
 {
     _objective1.layer.borderWidth = 2.0f;
     _objective1.layer.borderColor = [[UIColor grayColor] CGColor];
     _objective1.layer.cornerRadius = 10.0f;
+    
     _objective2.layer.borderWidth = 2.0f;
     _objective2.layer.borderColor = [[UIColor grayColor] CGColor];
     _objective2.layer.cornerRadius = 10.0f;
+    
     _objective3.layer.borderWidth = 2.0f;
     _objective3.layer.borderColor = [[UIColor grayColor] CGColor];
     _objective3.layer.cornerRadius = 10.0f;
+    
     _objective4.layer.borderWidth = 2.0f;
     _objective4.layer.borderColor = [[UIColor grayColor] CGColor];
     _objective4.layer.cornerRadius = 10.0f;
     _objective4.delegate = self;
+    
     [super viewDidLoad];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
 }
 
 //Removes the keyboard from the screen when the background is clicked.

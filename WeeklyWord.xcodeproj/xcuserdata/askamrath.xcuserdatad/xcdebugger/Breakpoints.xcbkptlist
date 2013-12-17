@@ -4,17 +4,17 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "WeeklyWord/TimeWithDadViewController.m"
-         timestampString = "396546047.627691"
+         timestampString = "408937716.079526"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
-         landmarkName = "-submit:"
-         landmarkType = "5">
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "@implementation TimeWithDadViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -39,7 +39,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "81"
          endingLineNumber = "81"
-         landmarkName = "-validation:"
+         landmarkName = "-background:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -52,8 +52,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "72"
          endingLineNumber = "72"
-         landmarkName = "-background:"
-         landmarkType = "5">
+         landmarkName = "@implementation WeeklyWordViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -65,8 +65,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "66"
          endingLineNumber = "66"
-         landmarkName = "-textField:"
-         landmarkType = "5">
+         landmarkName = "@implementation WeeklyWordViewController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -78,7 +78,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "107"
          endingLineNumber = "107"
-         landmarkName = "-textViewDidBeginEditing:"
+         landmarkName = "-printOutAlert"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -91,7 +91,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "114"
          endingLineNumber = "114"
-         landmarkName = "-textViewDidEndEditing:"
+         landmarkName = "-textViewDidBeginEditing:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -104,7 +104,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "121"
          endingLineNumber = "121"
-         landmarkName = "-animateTextView:up:"
+         landmarkName = "-textViewDidEndEditing:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

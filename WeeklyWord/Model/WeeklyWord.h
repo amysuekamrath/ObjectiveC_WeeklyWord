@@ -10,6 +10,8 @@
 
 @interface WeeklyWord : NSObject
 {
+
+//The fields for the WeeklyWord model
 @private
     NSString *guid;
     NSString *howDoingText;
@@ -33,6 +35,7 @@
     NSString *objective4;
 }
 
+//The methods for the fields of the weeklyword model being set
 - (void)setGuid:(NSString *)anGuid;
 - (void)setHowDoingText:(NSString *)anHowDoingText;
 - (void)setTimeWithDad:(NSString *)anTimeWithDad;
@@ -53,6 +56,9 @@
 - (void)setObjective2:(NSString *)anObjective2;
 - (void)setObjective3:(NSString *)anObjective3;
 - (void)setObjective4:(NSString *)anObjective4;
+
+
+//The methods for the fields of the weeklyword model getting them
 - (NSString *)getGuid;
 - (NSString *)getHowDoingText;
 - (NSString *)getTimeWithDad;

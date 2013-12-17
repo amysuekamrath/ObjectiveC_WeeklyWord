@@ -2,6 +2,8 @@
 //  WeeklyWord.m
 //  WeeklyWord
 //
+//  This is an implementation file for the WeeklyWord model.
+//
 //  Created by Amy Kamrath on 7/16/13.
 //  Copyright (c) 2013 Amy Kamrath. All rights reserved.
 //

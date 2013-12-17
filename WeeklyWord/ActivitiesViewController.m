@@ -41,16 +41,22 @@
     
     NSInteger planningHrs = [_planningHours.text integerValue];
     [[self wword] setPlanningHours:planningHrs];
+    
     NSInteger languageHrs = [_languageHours.text integerValue];
     [[self wword] setLanguageHours:languageHrs];
+    
     NSInteger studyingHrs = [_studyingHours.text integerValue];
     [[self wword] setStudyingHours:studyingHrs];
+    
     NSInteger groupRelatedHrs = [_groupRelatedHours.text integerValue];
     [[self wword] setGroupRelatedHours:groupRelatedHrs];
+    
     NSInteger groupResponseHrs = [_groupResponseHours.text integerValue];
     [[self wword] setGroupResponseHours:groupResponseHrs];
+    
     NSInteger otherResponseHrs = [_otherResponseHours.text integerValue];
     [[self wword] setOtherRequiredHours:otherResponseHrs];
+    
     NSInteger coolStudyHrs = [_coolStudyHours.text integerValue];
     [[self wword] setCoolStudyHours:coolStudyHrs];
     
